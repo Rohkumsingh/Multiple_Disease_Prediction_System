@@ -1,5 +1,6 @@
 import os
 import pickle
+
 import streamlit as st
 from streamlit_option_menu import option_menu
 
@@ -8,8 +9,8 @@ st.set_page_config(page_title="Health Assistant",
                     layout="wide",
                     page_icon="🧑‍⚕️")
 
-# getting the working directory of the main.py
-working_dir = os.path.dirname(os.path.abspath("D:\Multiple Disease Prediction System"))
+# Resolve paths relative to this file so the app runs from any machine/location.
+working_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Check if the directory exists
 sav_files_dir = os.path.join(working_dir, 'SAV Files')

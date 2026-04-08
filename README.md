@@ -67,6 +67,15 @@ Multiple_Disease_Prediction_System/
   <li>The application will open in your default web browser at <code>http://localhost:8501</code></li>
 </ol>
 
+<h2>Deploy on Streamlit Community Cloud</h2>
+<ol>
+  <li>Push this project to a GitHub repository</li>
+  <li>Make sure <code>MDPS.py</code>, <code>requirements.txt</code>, and the <code>SAV Files</code> folder are included in the repo</li>
+  <li>Open Streamlit Community Cloud and create a new app from your GitHub repository</li>
+  <li>Set the main file path to <code>MDPS.py</code></li>
+  <li>Deploy the app</li>
+</ol>
+
 <h2>Usage</h2>
 <ol>
   <li>Select the type of prediction you want to make from the sidebar</li>
